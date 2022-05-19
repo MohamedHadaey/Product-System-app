@@ -1,0 +1,129 @@
+.form-inputs .content {
+  width: 90% !important;
+}
+.form-inputs .content > div {
+  width: 90% !important;
+}
+.form-inputs,
+.data-display {
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), -3px -3px 10px rgba(0, 0, 0, 0.3);
+}
+.data-display {
+  min-height: 100vh;
+}
+td {
+  max-width: 90px;
+  word-wrap: break-word;
+}
+
+/* start media queres  */
+
+/* start small screen */
+@media screen and (max-width: 415px) {
+  .container-fluid {
+    padding: 0 5px !important;
+  }
+  .data-display button {
+    font-size: 8px !important;
+    padding: 2px !important;
+    font-weight: 400 !important;
+  }
+  .data-display{
+    padding: 5px !important;
+  }
+  th {
+    font-size: 8px !important;
+  }
+  td {
+    font-size: 8px !important;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 576px) {
+  .container-fluid {
+    padding: 0 15px !important;
+  }
+  .data-display button {
+    font-size: 10px !important;
+    padding: 2px !important;
+    font-weight: 500 !important;
+  }
+  th {
+    font-size: 10px !important;
+  }
+  td {
+    font-size: 8px !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+  }
+}
+/* end small screen */
+/* start medium screen */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .container-fluid {
+    padding: 0 15px !important;
+  }
+  .data-display button {
+    font-size: 12px !important;
+    padding: 3px !important;
+    font-weight: 500 !important;
+  }
+  th {
+    font-size: 16px !important;
+  }
+  td {
+    font-size: 12px !important;
+  }
+}
+/* end medium screen */
+/* start large screen */
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .container-fluid {
+    padding: 0 20px !important;
+  }
+  .data-display button {
+    font-size: 16px !important;
+    padding: 5px !important;
+    font-weight: 500 !important;
+  }
+  td {
+    font-size: 14px !important;
+    max-width: 60px !important;
+  }
+}
+/* end large screen */
+/* start extra large screen */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  .data-display button {
+    font-size: 14px !important;
+    padding: 5px !important;
+    font-weight: 500 !important;
+  }
+  th {
+    font-size: 16px !important;
+  }
+  td {
+    font-size: 12px !important;
+    max-width: 50px !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .data-display button {
+    font-size: 14px !important;
+    padding: 5px !important;
+    font-weight: 500 !important;
+  }
+  th {
+    font-size: 16px !important;
+  }
+  td {
+    font-size: 14px !important;
+    max-width: 60px !important;
+  }
+}
+/* end axtra large screen */
+
+/* end media queres*/
+/***********************      Best Wishes    **************************/

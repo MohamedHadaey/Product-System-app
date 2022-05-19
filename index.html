@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Angular_full_color_logo.svg.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Products System</title>
+</head>
+
+<body>
+
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-lg-4 py-5 px-3">
+                <div class="form-inputs vh-100 bg-light d-flex justify-content-center align-items-center ">
+                    <div class="content d-flex justify-content-center align-items-center flex-column ">
+                        <div class="input-gp mb-2">
+                            <label> product name: </label>
+                            <input type="text" id="productName" class="form-control mb-2" autocomplete="off">
+                            <div id="nameAlert" class="alert alert-danger d-none">should be from 2-10 characters....
+                            </div>
+                        </div>
+                        <div class="input-gp mb-2">
+                            <label> product price: </label>
+                            <input type="text" id="productPrice" class="form-control mb-2" autocomplete="off">
+                            <div id="priceAlert" class="alert alert-danger d-none">should be from 500-1000000 dolar....
+                            </div>
+                        </div>
+                        <div class="input-gp mb-2">
+                            <label> product category: </label>
+                            <input type="text" id="productCategory" class="form-control mb-2" autocomplete="off">
+                            <div id="categoryAlert" class="alert alert-danger d-none">ex: ( product, mobile, tv, laptop, drink, food, ....... )
+                            </div>
+                        </div>
+                        <div class="input-gp mb-2">
+                            <label> product discription: </label>
+                            <textarea id="productDesc" class="form-control" rows="5"></textarea>
+                        </div>
+                        <div class="input-gp my-2">
+                            <button disabled id="submitBtn" class="btn btn-primary my-2">Add Product</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 py-5 px-3">
+                <div class="data-display bg-light text-center p-3 overflow-hidden">
+                    <input id="search" placeholder="search by name" type="text"
+                        class="form-control w-75 m-auto my-4 text-center" autocomplete="off">
+                    <table class="table table-striped ">
+                        <thead>
+                            <th></th>
+                            <th>name</th>
+                            <th>price</th>
+                            <th>category</th>
+                            <th>description</th>
+                            <th></th>
+                            <th></th>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
